@@ -9,9 +9,9 @@ function App() {
   });
 
   return (
-    <div>
+    <div className="font-poppins">
       <Navbar />
-      <section className="">{cards}</section>
+      <section className="flex-col py-16 px-12">{cards}</section>
       <Footer />
     </div>
   );
