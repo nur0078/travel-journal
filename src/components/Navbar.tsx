@@ -3,9 +3,11 @@ import { faEarthEurope } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   return (
-    <nav>
-      <FontAwesomeIcon icon={faEarthEurope} className="nav--logo" />
-      <h1 className="nav--title">my travel journal.</h1>
+    <nav className=" bg-red-600 shadow-md py-3 px-0 flex justify-center gap-2 text-white">
+      <FontAwesomeIcon icon={faEarthEurope} className="h-8" />
+      <h1 className="pt-1  font-semibold tracking-tighter">
+        my Travel Journal.
+      </h1>
     </nav>
   );
 };
